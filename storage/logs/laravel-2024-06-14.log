@@ -1,0 +1,17 @@
+[2024-06-14 12:41:17] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Proth\u00e8se dentaire adjointe was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/car?id=13",
+    "idNotification": "6183a12a-66e4-4ea1-ac91-26a155c66af1",
+    "socket": null
+}  
+[2024-06-14 12:41:18] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Proth\u00e8se dentaire adjointe was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:81\/user\/car?id=13",
+    "idNotification": "32271eaa-bdc4-46e5-8e0b-8f5df7d48339",
+    "userId": 2,
+    "socket": null
+}  

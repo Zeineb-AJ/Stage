@@ -1,0 +1,418 @@
+[2024-05-23 20:42:31] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Mercedes Benz has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=7",
+    "idNotification": "e64b842e-941f-48f0-8df4-68e7fcfc38c8",
+    "socket": null
+}  
+[2024-05-23 20:42:31] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Mercedes Benz has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:85\/user\/car?id=7",
+    "idNotification": "f5a9593e-0218-46a8-82d8-78f8d48ff97e",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-23 20:42:32] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Vinfast Fadil Plus has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=6",
+    "idNotification": "135bc588-494b-4081-82c8-0d90ef4076d1",
+    "socket": null
+}  
+[2024-05-23 20:42:32] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Vinfast Fadil Plus has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:85\/user\/car?id=6",
+    "idNotification": "2566be34-524d-489f-9195-9d8d26e1857b",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-23 20:42:32] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "2019 Audi S3 has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=5",
+    "idNotification": "72adf89d-eed2-4797-ac6f-70a8db5d3e6a",
+    "socket": null
+}  
+[2024-05-23 20:42:32] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "2019 BMW M6 Gran Coupe has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=4",
+    "idNotification": "13f6841a-8c5b-4cd2-be58-df961db67dab",
+    "socket": null
+}  
+[2024-05-23 20:42:32] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "2019 Honda Clarity has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=3",
+    "idNotification": "acce558c-623c-471f-90e5-544efac6be51",
+    "socket": null
+}  
+[2024-05-23 20:42:32] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "2019 Honda Clarity has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=2",
+    "idNotification": "2a631ff1-91f3-479f-a1fd-e55471f9ac07",
+    "socket": null
+}  
+[2024-05-23 20:42:32] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "BMW-X6-facelift has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=1",
+    "idNotification": "908183aa-6308-435f-9211-d5328f880d48",
+    "socket": null
+}  
+[2024-05-23 20:47:53] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Proth\u00e8se dentaire adjointe was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=13",
+    "idNotification": "50e07d2b-7cf5-4a31-8cf9-88815fd8217a",
+    "socket": null
+}  
+[2024-05-23 20:47:53] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Proth\u00e8se dentaire adjointe was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:85\/user\/car?id=13",
+    "idNotification": "4aeb2c62-9311-4dac-9231-bbf647cb2352",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-23 20:48:50] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Couronnes was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=12",
+    "idNotification": "006f5a78-ede3-4690-827f-e85c3cb1b7b6",
+    "socket": null
+}  
+[2024-05-23 20:48:50] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Couronnes was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:85\/user\/car?id=12",
+    "idNotification": "2b1394ad-6f05-48ae-8512-3b9c1d012e9c",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-23 20:49:52] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Occlusodontie was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=11",
+    "idNotification": "436142fd-5361-4c29-b327-376c2cbca844",
+    "socket": null
+}  
+[2024-05-23 20:49:52] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Occlusodontie was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:85\/user\/car?id=11",
+    "idNotification": "0097893e-9105-4ec9-ad67-0afdbc9d199e",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-23 20:50:25] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Implantologie was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=10",
+    "idNotification": "b10aa097-7b27-47b8-821f-6faf3e3c588b",
+    "socket": null
+}  
+[2024-05-23 20:50:25] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Implantologie was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:85\/user\/car?id=10",
+    "idNotification": "6c10d9e0-5d81-4888-94c0-630b4664186d",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-23 20:51:07] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Esth\u00e9tique dentaire was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=9",
+    "idNotification": "28889111-842d-4fad-92ae-16e850d4968c",
+    "socket": null
+}  
+[2024-05-23 20:51:07] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Esth\u00e9tique dentaire was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:85\/user\/car?id=9",
+    "idNotification": "97d45dbd-b31a-498a-b907-22b593d32ee3",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-23 20:51:45] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Orthodontie was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=8",
+    "idNotification": "c241d68d-5ad7-49f9-81b2-a36a31797aec",
+    "socket": null
+}  
+[2024-05-23 20:51:45] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Orthodontie was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:85\/user\/car?id=8",
+    "idNotification": "bd6b90e5-0c36-41a9-b1a8-b4a55b834415",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-23 20:54:23] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car Parodontologie",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/14",
+    "idNotification": "14864015-ab3f-40e1-aeec-03f80e0ffe8f",
+    "socket": null
+}  
+[2024-05-23 20:56:56] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Implantologie was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=10",
+    "idNotification": "e145b7e1-6fb9-46ba-8d1a-524e365c509f",
+    "socket": null
+}  
+[2024-05-23 20:56:56] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Implantologie was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:85\/user\/car?id=10",
+    "idNotification": "8d35f288-3f93-455c-9c44-19f546b5e3d1",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-23 20:57:53] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car Chirurgie orale",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/15",
+    "idNotification": "482e094a-391b-4930-9bb9-2708d76eaf89",
+    "socket": null
+}  
+[2024-05-23 21:00:50] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Implantologie orale was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car?id=10",
+    "idNotification": "9ecb2914-11e5-45fa-8e39-4bbf2cfa87bf",
+    "socket": null
+}  
+[2024-05-23 21:00:50] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Implantologie orale was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:85\/user\/car?id=10",
+    "idNotification": "931f073a-f61e-46a9-abb6-9f427e58ad38",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-23 21:33:45] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car LIFTING DU VISAGE",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/16",
+    "idNotification": "5c69345b-6bb1-45ec-b688-12bb069a46d5",
+    "socket": null
+}  
+[2024-05-23 21:34:48] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car LIPOSUCCION DU COU",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/17",
+    "idNotification": "84290d69-1030-47ec-9f50-4f6841bfff6f",
+    "socket": null
+}  
+[2024-05-23 21:35:58] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car LIPOFILLING VISAGE",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/18",
+    "idNotification": "59e06b4b-7d17-48f4-b923-8b6896bf293a",
+    "socket": null
+}  
+[2024-05-23 21:37:37] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car CHIRURGIE FOSSETTES",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/19",
+    "idNotification": "dcc04059-89d0-4913-853b-d2696108688c",
+    "socket": null
+}  
+[2024-05-23 21:42:22] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car RHINOPLASTIE",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/20",
+    "idNotification": "54e438e1-eefb-40b8-992f-6fd202ab6215",
+    "socket": null
+}  
+[2024-05-23 21:45:41] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car BLEPHAROPLASTIE",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/21",
+    "idNotification": "59e8a4d9-515b-4d4a-b67d-8302c6700bc9",
+    "socket": null
+}  
+[2024-05-23 21:47:50] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car AUGMENTATION MAMMAIRE",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/22",
+    "idNotification": "163ffc3f-e4aa-42bc-82fb-065651a64dbb",
+    "socket": null
+}  
+[2024-05-23 21:48:02] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car LIPOFILLING DES SEINS",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/23",
+    "idNotification": "6c626c96-150d-4fc8-b66c-e2476b8003f9",
+    "socket": null
+}  
+[2024-05-23 21:48:17] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car REDUCTION MAMMAIRE",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/24",
+    "idNotification": "c81544a5-1411-4eb5-85dd-664a82150186",
+    "socket": null
+}  
+[2024-05-23 21:48:31] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car LIFTING DES SEINS",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/25",
+    "idNotification": "9f3d2e2f-2d22-464a-bfc1-7870316d0468",
+    "socket": null
+}  
+[2024-05-23 21:48:59] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created car CHANGEMENT PROTHESES MAMMAIRES",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/car\/edit\/26",
+    "idNotification": "73f4a99f-4d47-418d-b046-16f4a1c86b20",
+    "socket": null
+}  
+[2024-05-23 21:56:26] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr Radhou Bouhouch Ayadi was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=12",
+    "idNotification": "a960098b-26ed-4e06-b380-a0aeb1e3766a",
+    "socket": null
+}  
+[2024-05-23 21:56:56] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Radhou Bouhouch Ayadi was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=12",
+    "idNotification": "1d3b56a5-e1c9-4ab4-a84c-e5c477e7b311",
+    "socket": null
+}  
+[2024-05-23 21:57:39] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Marwa Ladhari was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=11",
+    "idNotification": "3efce2f3-73b3-4878-a2dd-4d7c50774764",
+    "socket": null
+}  
+[2024-05-23 21:58:50] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Kamel Larbi was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=9",
+    "idNotification": "dcbfac7a-ee05-4191-89ae-9804244ea242",
+    "socket": null
+}  
+[2024-05-23 21:59:23] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Origami Crane Wedding Planners has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=10",
+    "idNotification": "597854ac-aa95-4865-963f-9c376f2d844f",
+    "socket": null
+}  
+[2024-05-23 21:59:24] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Pink Crescent Moon Events has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=8",
+    "idNotification": "9d980a96-68a8-46a4-9965-657e2ace0436",
+    "socket": null
+}  
+[2024-05-23 21:59:24] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Eastern Discovery has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=7",
+    "idNotification": "f3e26c22-a78f-4b2e-9376-6ff8e86314cb",
+    "socket": null
+}  
+[2024-05-23 21:59:24] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Spanish Moss Event Design has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=6",
+    "idNotification": "e439f786-66e9-4e6b-bce0-334656eb54e4",
+    "socket": null
+}  
+[2024-05-23 21:59:24] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Southwest States (Ex Los Angeles)  has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=5",
+    "idNotification": "40bf5eea-5f18-4c10-8723-08fb758ac63b",
+    "socket": null
+}  
+[2024-05-23 21:59:24] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Aspen Glade Weddings & Events has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=4",
+    "idNotification": "cd23c712-6e64-4413-bf6d-9b093ca311be",
+    "socket": null
+}  
+[2024-05-23 21:59:24] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Bamboo Grove Event Planning has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=3",
+    "idNotification": "40f7a9ee-d0b3-4f84-97d0-f589a65fc973",
+    "socket": null
+}  
+[2024-05-23 21:59:24] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Painted Desert Event Designs has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=2",
+    "idNotification": "8423bfd2-a69b-49a5-9a2a-f33ee81e2a85",
+    "socket": null
+}  
+[2024-05-23 21:59:24] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Andante & Allegro Event Design has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:85\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:85\/admin\/module\/event?id=1",
+    "idNotification": "27d53b7e-f230-4cd1-8b2c-8fd7de953225",
+    "socket": null
+}  
