@@ -1,0 +1,233 @@
+[2024-06-17 10:07:40] production.ERROR: Maximum execution time of 60 seconds exceeded {"userId":1,"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 60 seconds exceeded at C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:190)
+[stacktrace]
+#0 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: ''Maximum execut...', code: '0', error: '['type' => 1, '...', traceOffset: '0', traceArgs: '???', trace: '???')
+#1 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(242): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '['type' => 1, '...', traceOffset: '0')
+#2 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(266): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php:265-267}()
+#4 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\FileSessionHandler.php(90): Illuminate\\Filesystem\\Filesystem->put(path: ''C:\\\\\\\\wamp64\\\\\\\\ww...', contents: ''a:4:{s:6:\"_tok...', lock: 'TRUE')
+#5 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Store.php(173): Illuminate\\Session\\FileSessionHandler->write(sessionId: ''CDMfF3GUlYzCGx...', data: ''a:4:{s:6:\"_tok...')
+#6 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(238): Illuminate\\Session\\Store->save()
+#7 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(130): Illuminate\\Session\\Middleware\\StartSession->saveSession(request: 'class Illuminat...')
+#8 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(request: 'class Illuminat...', session: 'class Illuminat...', next: 'class Closure {...')
+#9 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#10 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#11 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#12 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#13 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\EncryptCookies->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#14 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#15 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Pipeline->then(destination: 'class Closure {...')
+#16 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(route: 'class Illuminat...', request: 'class Illuminat...')
+#17 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(request: 'class Illuminat...', route: 'class Illuminat...')
+#18 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(request: 'class Illuminat...')
+#19 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(request: 'class Illuminat...')
+#20 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): App\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php:187-191}(request: 'class Illuminat...')
+#21 C:\\wamp64\\www\\medical_travel\\themes\\Base\\Core\\Middleware\\RunUpdater.php(72): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:139-145}(passable: 'class Illuminat...')
+#22 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Themes\\Base\\Core\\Middleware\\RunUpdater->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#23 C:\\wamp64\\www\\medical_travel\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php(59): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#24 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#25 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#26 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#27 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#28 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#29 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): App\\Http\\Middleware\\TrimStrings->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#30 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\TrimStrings->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#31 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#32 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#33 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#34 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#35 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#36 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#37 C:\\wamp64\\www\\medical_travel\\app\\Http\\Middleware\\RedirectToInstaller.php(40): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#38 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RedirectToInstaller->handle(request: 'class Illuminat...', next: 'class Closure {...', guard: '???')
+#39 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#40 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\TrustProxies->handle(request: 'class Illuminat...', next: 'class Closure {...')
+#41 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php:156-187}(passable: 'class Illuminat...')
+#42 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Routing\\Pipeline->then(destination: 'class Closure {...')
+#43 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): App\\Http\\Kernel->sendRequestThroughRouter(request: 'class Illuminat...')
+#44 C:\\wamp64\\www\\medical_travel\\public\\index.php(72): App\\Http\\Kernel->handle(request: 'class Illuminat...')
+#45 C:\\wamp64\\www\\medical_travel\\server.php(21): ()
+#46 C:\\wamp64\\www\\medical_travel\\server.php(0): {main}()
+#47 {main}
+"} 
+[2024-06-17 13:50:18] production.ERROR: Maximum execution time of 60 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 60 seconds exceeded at C:\\wamp64\\www\\medical_travel\\vendor\\intervention\\image\\src\\config\\config.php:18)
+[stacktrace]
+#0 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: ''Maximum execut...', code: '0', error: '['type' => 1, '...', traceOffset: '0', traceArgs: '???', trace: '???')
+#1 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(242): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '['type' => 1, '...', traceOffset: '0')
+#2 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(266): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure:C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php:265-267}()
+#4 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(138): Intervention\\Image\\ImageServiceProviderLaravelRecent->()
+#5 C:\\wamp64\\www\\medical_travel\\vendor\\intervention\\image\\src\\Intervention\\Image\\ImageServiceProviderLaravelRecent.php(46): Intervention\\Image\\ImageServiceProviderLaravelRecent->mergeConfigFrom(path: ''C:\\\\\\\\wamp64\\\\\\\\ww...', key: ''image'')
+#6 C:\\wamp64\\www\\medical_travel\\vendor\\intervention\\image\\src\\Intervention\\Image\\ImageServiceProvider.php(57): Intervention\\Image\\ImageServiceProviderLaravelRecent->register()
+#7 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(689): Intervention\\Image\\ImageServiceProvider->register()
+#8 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(provider: ''Intervention\\\\\\\\...', force: '???')
+#9 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(666): Illuminate\\Foundation\\ProviderRepository->load(providers: '[0 => 'Illumina...')
+#10 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#11 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(242): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(app: 'class Illuminat...')
+#12 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Foundation\\Application->bootstrapWith(bootstrappers: '[0 => 'Illumina...')
+#13 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(160): App\\Http\\Kernel->bootstrap()
+#14 C:\\wamp64\\www\\medical_travel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): App\\Http\\Kernel->sendRequestThroughRouter(request: 'class Illuminat...')
+#15 C:\\wamp64\\www\\medical_travel\\public\\index.php(72): App\\Http\\Kernel->handle(request: 'class Illuminat...')
+#16 C:\\wamp64\\www\\medical_travel\\server.php(21): ()
+#17 C:\\wamp64\\www\\medical_travel\\server.php(0): {main}()
+#18 {main}
+"} 
+[2024-06-17 17:07:20] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "STAY GREENWICH VILLAGE has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/space?id=11",
+    "idNotification": "09b50e0f-e5da-4447-835e-87e55e7be5f5",
+    "socket": null
+}  
+[2024-06-17 17:07:20] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "LILY DALE VILLAGE has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/space?id=10",
+    "idNotification": "4c39f03f-f0c1-46c6-afdd-ec9b9f39c453",
+    "socket": null
+}  
+[2024-06-17 17:07:20] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "LUXURY SINGLE has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/space?id=9",
+    "idNotification": "d52d74a7-5933-4c2e-a62f-0025ad73efa9",
+    "socket": null
+}  
+[2024-06-17 17:07:20] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "PARIS GREENWICH VILLA has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/space?id=8",
+    "idNotification": "59473657-818f-4cde-a45b-06ee9a26749e",
+    "socket": null
+}  
+[2024-06-17 17:07:20] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "EAST VILLAGE has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/space?id=7",
+    "idNotification": "99b0eccf-24dc-45b0-9fc2-eec72ca44565",
+    "socket": null
+}  
+[2024-06-17 17:07:20] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "THE MEATPACKING SUITES has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/space?id=6",
+    "idNotification": "3b118188-b05c-40bc-ba4e-3c954b83dcdb",
+    "socket": null
+}  
+[2024-06-17 17:07:21] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "DUPLEX GREENWICH has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/space?id=5",
+    "idNotification": "eab90478-2f32-4ba6-8814-bd9f6058d1b0",
+    "socket": null
+}  
+[2024-06-17 17:07:21] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "BEST OF WEST VILLAGE has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/space?id=4",
+    "idNotification": "de445fff-628e-4c7a-98ae-316be76c7452",
+    "socket": null
+}  
+[2024-06-17 17:07:21] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "BEAUTIFUL LOFT has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/space?id=3",
+    "idNotification": "b7ef51fd-3d4d-4775-bcea-c4dd0b2dc03f",
+    "socket": null
+}  
+[2024-06-17 17:07:21] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "LUXURY APARTMENT has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/space?id=2",
+    "idNotification": "d2b950ec-5a19-4c6e-b92f-df66cda07e20",
+    "socket": null
+}  
+[2024-06-17 17:07:21] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "LUXURY STUDIO has been deleted by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/space?id=1",
+    "idNotification": "648ba0ff-b7da-4fbf-bd48-0d63ab311fe9",
+    "socket": null
+}  
+[2024-06-17 17:09:40] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Radhou Bouhouch Ayadi was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/event?id=12",
+    "idNotification": "a0ade2e0-1d97-4f73-b2e0-14843fcabfe6",
+    "socket": null
+}  
+[2024-06-17 17:10:31] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Radhou Bouhouch Ayadi was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/event?id=12",
+    "idNotification": "fe48bea1-e53f-4bea-90c7-222d8d818715",
+    "socket": null
+}  
+[2024-06-17 17:11:42] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Radhou Bouhouch Ayadi was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/event?id=12",
+    "idNotification": "d3966248-5e70-46a2-8805-90803f0c521c",
+    "socket": null
+}  
+[2024-06-17 17:13:22] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Radhou Bouhouch Ayadi was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/event?id=12",
+    "idNotification": "4d145c54-93d9-45d9-a53f-91784b5405c2",
+    "socket": null
+}  
+[2024-06-17 17:17:09] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Marwa Ladhari was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/event?id=11",
+    "idNotification": "960cbb92-3fc3-412a-8423-0732ae4e9bc3",
+    "socket": null
+}  
+[2024-06-17 17:18:35] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Kamel Larbi was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/event?id=9",
+    "idNotification": "3b702ae5-ad3f-416c-8df1-612db574a73e",
+    "socket": null
+}  
+[2024-06-17 17:19:51] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Marwa Ladhari was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/event?id=11",
+    "idNotification": "3767e414-9134-4c49-a999-6a5a4b7cbad9",
+    "socket": null
+}  
+[2024-06-17 17:21:12] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Kamel Larbi was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/event?id=9",
+    "idNotification": "4ffbbb2e-87f6-4169-8cbe-eabc9c7c6d47",
+    "socket": null
+}  
+[2024-06-17 17:24:08] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cabinet Dr. Radhou Bouhouch Ayadi was updated to Publish by System Admin",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:81\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/127.0.0.1:81\/admin\/module\/event?id=12",
+    "idNotification": "7a551420-7446-4c28-a18f-b06ad68bb848",
+    "socket": null
+}  

@@ -45,7 +45,6 @@
         </li>
     </ul>
 </div>
-<!--
     <div class="py-4 border-top border-bottom mb-4">
     <ul class="list-group list-group-borderless list-group-horizontal flex-center-between text-center mx-md-4 flex-wrap">
         @if($row->passenger)
@@ -74,7 +73,6 @@
         @endif
     </ul>
 </div>
--->
 @if($row->getGallery())
     <div class="position-relative">
         <div id="sliderSyncingNav" class="travel-slick-carousel u-slick mb-2"
@@ -140,7 +138,7 @@
         </div>
     </div>
 @endif
-<!--
+
 
 @include('Car::frontend.layouts.details.attributes')
 @include('Car::frontend.layouts.details.specifications')
@@ -170,4 +168,3 @@
         </div>
     </div>
 @endif
--->
