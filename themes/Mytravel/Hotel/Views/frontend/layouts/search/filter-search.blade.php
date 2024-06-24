@@ -1,19 +1,18 @@
 <div class="bravo_filter navbar-expand-lg navbar-expand-lg-collapse-block">
-    <button class="btn d-lg-none mb-5 p-0 collapsed" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-caret-square-o-down text-primary font-size-20 card-btn-arrow ml-0 font-weight-normal"></i>
-        <span class="text-primary ml-2">{{ __('Filter Search') }}</span>
-    </button>
+
     <div id="sidebar" class="navbar-expand-lg navbar-expand-lg-collapse-block collapse">
         {{--Form Search--}}
         <div class="item pb-4 mb-2">
             @include('Hotel::frontend.layouts.search.form-search-vertical')
         </div>
         {{--Map--}}
-        <div class="item pb-4 mb-2">
-            <a href="{{ route("hotel.search",['_layout'=>'map']) }}" class="d-block border border-color-1 rounded-xs">
-                <img src="{{ url("themes/mytravel/images/map.jpg") }}" alt="" width="100%">
-            </a>
-        </div>
+
+
+
+
+
+
+<!--
         <form action="{{url(app_get_locale(false,false,'/').config('hotel.hotel_route_prefix'))}}" class="bravo_form_filter">
             @if( !empty(Request::query('location_id')) )
                 <input type="hidden" name="location_id" value="{{Request::query('location_id')}}">
@@ -224,9 +223,6 @@
                 @endforeach
             </div>
         </form>
+    -->
     </div>
 </div>
-
-
-
-

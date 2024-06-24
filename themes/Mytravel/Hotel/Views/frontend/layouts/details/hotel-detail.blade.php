@@ -1,4 +1,5 @@
 @if(!empty($translation->badge_tags))
+
     <ul class="list-unstyled mb-2 d-flex flex-lg-wrap flex-xl-nowrap mb-2">
         @foreach($translation->badge_tags as $key => $item)
             <li class="border border-{{$item['color']}} bg-{{$item['color']}} rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
@@ -12,13 +13,7 @@
         <div class="d-block d-md-flex flex-horizontal-center mb-2 mb-md-0">
             <h4 class="font-size-23 font-weight-bold mb-1">{{$translation->title}}</h4>
             <div class="ml-md-3 font-size-10 letter-spacing-2">
-                @if($row->star_rate)
-                    <span class="d-block green-lighter ml-1">
-                        @for ($star = 1 ;$star <= $row->star_rate ; $star++)
-                            <span class="fa fa-star"></span>
-                        @endfor
-                    </span>
-                @endif
+              
             </div>
         </div>
         <div class="d-flex flex-horizontal-center font-size-14 text-gray-1">

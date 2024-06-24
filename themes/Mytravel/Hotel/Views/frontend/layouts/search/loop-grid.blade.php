@@ -15,7 +15,7 @@
         <div class="position-absolute top-0 right-0 pt-3 pr-3">
             <button type="button" class="btn btn-sm btn-icon text-white rounded-circle"  data-toggle="tooltip" data-placement="top" title="" data-original-title="{{__('Save for later')}}">
                 <span class="service-wishlist {{$row->isWishList()}}" data-id="{{$row->id}}" data-type="{{$row->type}}">
-                    <span class="flaticon-heart-1 font-size-20"></span>
+                 <!--   <span class="flaticon-heart-1 font-size-20"></span>  -->
                 </span>
             </button>
         </div>
@@ -31,6 +31,9 @@
             </div>
         @endif
     </div>
+
+
+    <!--
     <div class="card-body px-4 pt-2 pb-3">
         @if($row->star_rate)
             <div class="mb-2 hotel-star">
@@ -43,28 +46,21 @@
                 </div>
             </div>
         @endif
-        <a @if(!empty($blank)) target="_blank" @endif href="{{$row->getDetailUrl(false)}}" class="card-title font-size-17 font-weight-medium text-dark">{{$translation->title}}</a>
-            @if(setting_item('hotel_enable_review'))
-            @php
-                $reviewData = $row->getScoreReview();
-            @endphp
-            @if($reviewData)
-                <div class="mt-2 mb-3">
-                    <span class="badge badge-pill badge-primary py-1 px-2 font-size-14 border-radius-3 font-weight-normal">{{$reviewData['score_total']}}/5</span>
-                    <span class="font-size-14 text-gray-1 ml-2">(
-                        @if($reviewData['total_review'] > 1)
-                            {{ __(":number reviews",["number"=>$reviewData['total_review'] ]) }}
-                        @else
-                            {{ __(":number review",["number"=>$reviewData['total_review'] ]) }}
-                        @endif() )
-                    </span>
-                </div>
-            @endif
-        @endif
+
+
+
+
+
+
+
+
+
         <div class="mb-0">
             <span class="mr-1 font-size-14 text-gray-1">{{__("From")}}</span>
             <span class="font-weight-bold">{{ $row->display_price }}</span>
             <span class="font-size-14 text-gray-1">{{__("/night")}}</span>
         </div>
     </div>
+
+-->
 </div>

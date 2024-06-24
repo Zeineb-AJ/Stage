@@ -1,3 +1,7 @@
+
+
+
+
 <div class="g-rules border-bottom">
     <h3 class="font-size-21 font-weight-bold text-dark mb-4">{{__("Hotel Rules - Policies")}}</h3>
     <div class="description">
@@ -40,3 +44,4 @@
         @endif
     </div>
 </div>
+

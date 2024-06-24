@@ -21,14 +21,13 @@
                     @if($rows->total() > 0)
                         @foreach($rows as $row)
                             @php $layout = setting_item("hotel_layout_item_search",'list') @endphp
+
                             @if($layout == "list")
                                 <div class="col-lg-12 col-md-12">
                                     @include('Hotel::frontend.layouts.search.loop-list')
                                 </div>
                             @else
-                                <div class="col-lg-4 col-md-12">
-                                    @include('Hotel::frontend.layouts.search.loop-grid',['wrap_class'=>'mb-3'])
-                                </div>
+
                             @endif
                         @endforeach
                     @else

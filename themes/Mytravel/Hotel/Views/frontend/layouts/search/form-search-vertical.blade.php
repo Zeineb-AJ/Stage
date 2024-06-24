@@ -16,12 +16,7 @@
                         @case ('location')
                         @include('Hotel::frontend.layouts.search.fields.location')
                         @break
-                        @case ('date')
-                        @include('Hotel::frontend.layouts.search.fields.date')
-                        @break
-                        @case ('guests')
-                        @include('Hotel::frontend.layouts.search.fields.guests')
-                        @break
+
                     @endswitch
                 @endforeach
             @endif
